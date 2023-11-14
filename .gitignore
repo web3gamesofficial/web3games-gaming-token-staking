@@ -1,0 +1,32 @@
+#Buidler files
+cache
+artifacts
+
+node_modules
+typings/*
+
+config/*
+!config/template.env
+
+.openzeppelin
+.env
+
+.DS_Store
+
+# TypeScript tsc build
+output
+dist
+build
+
+# TypeScript bindings output directory
+types
+
+# solidity-coverage directory and output file
+coverage
+coverage.json
+
+# test data
+scripts/data
+
+# abi
+abi
